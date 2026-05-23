@@ -1,0 +1,28 @@
+# OS junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Editor junk
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# --- per-repo additions: full Vite/Vue/TS (capstone — Phase 12) ---
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+coverage/
+*.tsbuildinfo
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.eslintcache
